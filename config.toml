@@ -1,0 +1,209 @@
+baseURL = "https://3dprintstone.com/"
+languageCode = "en-us"
+title = "3D Print Stone"
+theme = "printwire"
+
+# All single-value params MUST come before [[params.*]] array tables
+[params]
+tagline       = "Mineral and geopolymer additive manufacturing for architecture and industry."
+description   = "3D Print Stone — covering ceramic, geopolymer, concrete, and stone-composite additive manufacturing for architecture, refractory, and landscape applications."
+keywords      = "stone 3D printing, geopolymer printing, concrete 3D printing, terracotta AM, fireclay printing, stone composite, mineral additive manufacturing"
+logoEmoji     = "🪨"
+contactEmail  = "maxdavisgroup@gmail.com"
+ogImage       = "images/06_wall_panel.png"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#c2714f"
+colorPrimaryDark  = "#a85e3e"
+colorPrimaryLight = "#d4896b"
+colorBgDark       = "#0d0b09"
+colorBgSection    = "#111009"
+colorBgCard       = "#1a1510"
+colorBgCardHover  = "#231d15"
+colorBorder       = "rgba(194,113,79,0.18)"
+colorBorderLight  = "rgba(194,113,79,0.08)"
+
+fontPrimary   = "Josefin+Sans"
+fontSecondary = "Lato"
+
+pubmedQuery    = "geopolymer+concrete+stone+additive+manufacturing+printing"
+pubmedFallback = "stone+geopolymer+3D+printing"
+newsFallbackImages = [
+  "images/06_wall_panel.png",
+  "images/16_heat_exchanger.png",
+  "images/09_abstract_sculpture.png",
+]
+
+heroEyebrow  = "Mineral 3D Printing"
+heroTitle    = "<em>Mineral Mass</em><br>Without the Mold"
+heroSubtitle = "Covering ceramic, geopolymer, concrete, and stone-composite additive manufacturing for architecture, industrial refractory, and landscape design."
+heroCta1Text = "Latest Research"
+heroCta1URL  = "/articles/"
+heroCta2Text = "Applications"
+heroCta2URL  = "/services/"
+heroImage    = "images/06_wall_panel.png"
+
+newsSectionTitle    = "Mineral & Geopolymer AM Research"
+newsSectionSubtitle = "Latest research on geopolymer, terracotta, and stone-composite additive manufacturing."
+
+overviewLabel   = "The Materials"
+overviewTitle   = "Where Geology Meets Algorithm"
+overviewText    = "Stone-like materials — terracotta, fireclay, geopolymer, and aggregate composites — represent the oldest human use of ceramics and the newest frontier of additive manufacturing."
+overviewText2   = "Today's stone printing spans from robotic concrete extrusion at architectural scale to precision fireclay components for kiln and furnace applications. We cover the full range."
+overviewImage   = "images/06_wall_panel.png"
+overviewBtnText = "Learn More"
+overviewBtnURL  = "/about/"
+
+applicationsLabel = "Applications"
+applicationsTitle = "Mineral AM in the Real World"
+
+servicesLabel    = "What We Offer"
+servicesTitle    = "Coverage & Services"
+servicesSubtitle = "Expert coverage and fabrication services for ceramic additive manufacturing."
+
+clusterLabel = "Ceramic Cluster"
+clusterTitle = "Related Ceramic 3D Printing Sites"
+
+newsletterTitle = "Mineral 3D Printing Updates"
+newsletterText  = "Geopolymer research, terracotta extrusion guides, and architectural ceramic news."
+
+ctaTitle   = "Build at Any Scale"
+ctaText    = "From precision refractory components to robotic architectural facades — let's discuss your project."
+ctaImage   = "images/06_wall_panel.png"
+ctaBtnText = "Explore Applications"
+ctaBtnURL  = "/services/"
+
+[[params.stats]]
+count  = 3
+suffix = "B+"
+label  = "Ceramic AM Market 2034"
+
+[[params.stats]]
+count  = 28
+suffix = "%"
+label  = "Annual CAGR"
+
+[[params.stats]]
+count  = 40
+suffix = "+"
+label  = "Architectural Projects (WASP)"
+
+[[params.stats]]
+count  = 60
+suffix = "%"
+label  = "CO₂ Reduction (Geopolymer vs. Concrete"
+
+[[params.applications]]
+title       = "Architectural Facades"
+description = "Terracotta and geopolymer facade panels with custom surface relief — parametrically generated and kiln-fired."
+image       = "images/06_wall_panel.png"
+
+[[params.applications]]
+title       = "Refractory Industrial"
+description = "Fireclay and high-alumina components for kilns, furnaces, and high-temperature industrial processes."
+image       = "images/16_heat_exchanger.png"
+
+[[params.applications]]
+title       = "Landscape & Hardscape"
+description = "Aggregate-filled ceramic extrusion for outdoor paving, planters, and sculptural landscape elements."
+image       = "images/14_planter_pot.png"
+
+[[params.applications]]
+title       = "Public Sculpture"
+description = "Monumental concrete and stone composite sculpture for public plazas — printed robotically, fired or geopolymer-cured."
+image       = "images/09_abstract_sculpture.png"
+
+[[params.servicesPreview]]
+icon        = "🪨"
+title       = "Terracotta Extrusion"
+description = "Large-format clay extrusion for architectural panels, landscape elements, and industrial refractory."
+
+[[params.servicesPreview]]
+icon        = "🏗️"
+title       = "Geopolymer Printing"
+description = "Robotic geopolymer extrusion for structural and decorative elements without kiln firing."
+
+[[params.servicesPreview]]
+icon        = "🌡️"
+title       = "Refractory Solutions"
+description = "High-alumina and fireclay components for kilns, furnaces, and extreme thermal environments."
+
+[[params.servicesPreview]]
+icon        = "📐"
+title       = "Parametric Design"
+description = "Algorithmic surface generation for non-repeating facade panels and architectural ceramics."
+
+[[params.services]]
+name        = "Terracotta Extrusion"
+description = "Large-format clay extrusion for architectural panels, landscape elements, and industrial refractory."
+icon        = "🪨"
+
+[[params.services]]
+name        = "Geopolymer Printing"
+description = "Robotic geopolymer extrusion for structural and decorative elements without kiln firing."
+icon        = "🏗️"
+
+[[params.services]]
+name        = "Refractory Solutions"
+description = "High-alumina and fireclay components for kilns, furnaces, and extreme thermal environments."
+icon        = "🌡️"
+
+[[params.services]]
+name        = "Parametric Design"
+description = "Algorithmic surface generation for non-repeating facade panels and architectural ceramics."
+icon        = "📐"
+
+[[params.clusterLinks]]
+name        = "3dprintceramic.com"
+url         = "https://3dprintceramic.com"
+description = "Flagship — ceramic AM news & services"
+
+[[params.clusterLinks]]
+name        = "3dprintceramics.com"
+url         = "https://3dprintceramics.com"
+description = "Ceramics community & resources"
+
+[[params.clusterLinks]]
+name        = "3dprintporcelain.com"
+url         = "https://3dprintporcelain.com"
+description = "Porcelain & fine clay printing"
+
+[[params.clusterLinks]]
+name        = "3dprinttile.com"
+url         = "https://3dprinttile.com"
+description = "Custom ceramic tile design"
+
+[[params.clusterLinks]]
+name        = "tile3dprint.com"
+url         = "https://tile3dprint.com"
+description = "Tile fabrication services"
+
+[[menu.main]]
+name   = "Home"
+url    = "/"
+weight = 1
+
+[[menu.main]]
+name   = "About"
+url    = "/about/"
+weight = 2
+
+[[menu.main]]
+name   = "Articles"
+url    = "/articles/"
+weight = 3
+
+[[menu.main]]
+name   = "Services"
+url    = "/services/"
+weight = 4
+
+[[menu.main]]
+name   = "Contact"
+url    = "/contact/"
+weight = 5
+
+[[menu.main]]
+name   = "Advertise"
+url    = "/advertise/"
+weight = 6
