@@ -1,10 +1,18 @@
 baseURL = "https://3dprintstone.com/"
 languageCode = "en-us"
 title = "3D Print Stone"
-theme = "printwire"
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # All single-value params MUST come before [[params.*]] array tables
 [params]
+siteName      = "3D Print Stone"
+logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">STONE</span>'
 tagline       = "Mineral and geopolymer additive manufacturing for architecture and industry."
 description   = "3D Print Stone — covering ceramic, geopolymer, concrete, and stone-composite additive manufacturing for architecture, refractory, and landscape applications."
 keywords      = "stone 3D printing, geopolymer printing, concrete 3D printing, terracotta AM, fireclay printing, stone composite, mineral additive manufacturing"
