@@ -18,7 +18,7 @@ description   = "3D Print Stone — covering ceramic, geopolymer, concrete, and 
 keywords      = "stone 3D printing, geopolymer printing, concrete 3D printing, terracotta AM, fireclay printing, stone composite, mineral additive manufacturing"
 logoEmoji     = "🪨"
 contactEmail  = "maxdavisgroup@gmail.com"
-ogImage       = "images/06_wall_panel.png"
+ogImage       = "/images/03_textured_collection.png"
 footerServicesLabel = "Services"
 
 colorPrimary      = "#c2714f"
