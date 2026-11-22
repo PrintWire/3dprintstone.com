@@ -14,7 +14,7 @@ title = "3D Print Stone"
 siteName      = "3D Print Stone"
 logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">STONE</span>'
 tagline       = "Mineral and geopolymer additive manufacturing for architecture and industry."
-description   = "3D Print Stone — covering ceramic, geopolymer, concrete, and stone-composite additive manufacturing for architecture, refractory, and landscape applications."
+description   = "3D Print Stone is a PrintWire network site about stone 3D printing. PrintWire passes quote requests to specialised manufacturers and returns pricing. PrintWire does not manufacture parts itself."
 keywords      = "stone 3D printing, geopolymer printing, concrete 3D printing, terracotta AM, fireclay printing, stone composite, mineral additive manufacturing"
 logoEmoji     = "🪨"
 contactEmail  = "maxdavisgroup@gmail.com"
